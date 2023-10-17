@@ -1,5 +1,14 @@
 class ImageConstant {
   static String imagePath = 'assets/images';
+  static String imageNike = '$imagePath/Vector.svg';
+  static String imgGoogleglogo= '$imagePath/img_google_icon.svg';
+  static String imgHidden = '$imagePath/img_hidden_icon.svg';
+  static String imgNavhome = '$imagePath/img_navhome.svg';
+  static String imgNavfavourites = '$imagePath/img_navfavourites.svg';
+  static String imgNavbag = '$imagePath/img_navbag.svg';
+  static String imgNavnotifications = '$imagePath/img_navnotifications.svg';
+  static String imgNavprofile = '$imagePath/img_navprofile.svg';
+  static String imgNavbagBlack900 = '$imagePath/img_navbag_black_900.svg';
 
   static String imgRectangle32 = '$imagePath/img_rectangle32.png';
 
@@ -65,9 +74,7 @@ class ImageConstant {
 
   static String imgVector = '$imagePath/img_vector.svg';
 
-  static String imgComponent2 = '$imagePath/img_component_2.svg';
 
-  static String imgGoogleglogo11 = '$imagePath/img_googleglogo_1_1.svg';
 
   static String imgComponent1 = '$imagePath/img_component1.svg';
 

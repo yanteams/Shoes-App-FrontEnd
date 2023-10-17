@@ -1,5 +1,5 @@
+import 'package:flutter_shop_app/utils/snippet.dart';
 import 'package:flutter/material.dart';
-import 'package:shop_app/core/app_export.dart';
 
 // ignore: must_be_immutable
 class AppbarImage1 extends StatelessWidget {

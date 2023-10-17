@@ -124,67 +124,79 @@ class ThemeHelper {
 /// Class containing the supported text theme styles.
 class TextThemes {
   static TextTheme textTheme(ColorScheme colorScheme) => TextTheme(
-        bodyLarge: TextStyle(
-          color: appTheme.blueGray400,
-          fontSize: 16.fSize,
-          fontFamily: 'Roboto',
-          fontWeight: FontWeight.w400,
-        ),
-        bodyMedium: TextStyle(
-          color: appTheme.blueGray400,
-          fontSize: 14.fSize,
-          fontFamily: 'Roboto',
-          fontWeight: FontWeight.w400,
-        ),
-        displayMedium: TextStyle(
-          color: colorScheme.primary,
-          fontSize: 48.fSize,
-          fontFamily: 'Roboto',
-          fontWeight: FontWeight.w600,
-        ),
-        headlineLarge: TextStyle(
-          color: appTheme.black900,
-          fontSize: 30.fSize,
-          fontFamily: 'Roboto',
-          fontWeight: FontWeight.w700,
-        ),
-        headlineMedium: TextStyle(
-          color: appTheme.black900,
-          fontSize: 28.fSize,
-          fontFamily: 'Roboto',
-          fontWeight: FontWeight.w600,
-        ),
-        headlineSmall: TextStyle(
-          color: appTheme.black900,
-          fontSize: 24.fSize,
-          fontFamily: 'Roboto',
-          fontWeight: FontWeight.w600,
-        ),
-        labelLarge: TextStyle(
-          color: appTheme.gray50,
-          fontSize: 13.fSize,
-          fontFamily: 'Inter',
-          fontWeight: FontWeight.w700,
-        ),
-        titleLarge: TextStyle(
-          color: appTheme.black900,
-          fontSize: 20.fSize,
-          fontFamily: 'Roboto',
-          fontWeight: FontWeight.w600,
-        ),
-        titleMedium: TextStyle(
-          color: appTheme.black900,
-          fontSize: 16.fSize,
-          fontFamily: 'Roboto',
-          fontWeight: FontWeight.w500,
-        ),
-        titleSmall: TextStyle(
-          color: colorScheme.onPrimaryContainer,
-          fontSize: 14.fSize,
-          fontFamily: 'Roboto',
-          fontWeight: FontWeight.w500,
-        ),
-      );
+    bodyLarge: TextStyle(
+      color: appTheme.blueGray400,
+      fontSize: 16.fSize,
+      fontFamily: 'Roboto',
+      fontWeight: FontWeight.w400,
+    ),
+    bodyMedium: TextStyle(
+      color: appTheme.blueGray400,
+      fontSize: 14.fSize,
+      fontFamily: 'Roboto',
+      fontWeight: FontWeight.w400,
+    ),
+    bodySmall: TextStyle(
+      color: appTheme.gray60001,
+      fontSize: 12.fSize,
+      fontFamily: 'Inter',
+      fontWeight: FontWeight.w400,
+    ),
+    displayLarge: TextStyle(
+      color: appTheme.whiteA700,
+      fontSize: 60.fSize,
+      fontFamily: 'Roboto',
+      fontWeight: FontWeight.w900,
+    ),
+    displayMedium: TextStyle(
+      color: colorScheme.primary,
+      fontSize: 48.fSize,
+      fontFamily: 'Roboto',
+      fontWeight: FontWeight.w600,
+    ),
+    headlineLarge: TextStyle(
+      color: appTheme.black900,
+      fontSize: 30.fSize,
+      fontFamily: 'Roboto',
+      fontWeight: FontWeight.w700,
+    ),
+    headlineMedium: TextStyle(
+      color: appTheme.black900,
+      fontSize: 28.fSize,
+      fontFamily: 'Roboto',
+      fontWeight: FontWeight.w600,
+    ),
+    headlineSmall: TextStyle(
+      color: appTheme.black900,
+      fontSize: 24.fSize,
+      fontFamily: 'Roboto',
+      fontWeight: FontWeight.w600,
+    ),
+    labelLarge: TextStyle(
+      color: appTheme.gray50,
+      fontSize: 13.fSize,
+      fontFamily: 'Inter',
+      fontWeight: FontWeight.w700,
+    ),
+    titleLarge: TextStyle(
+      color: appTheme.black900,
+      fontSize: 20.fSize,
+      fontFamily: 'Roboto',
+      fontWeight: FontWeight.w600,
+    ),
+    titleMedium: TextStyle(
+      color: appTheme.black900,
+      fontSize: 16.fSize,
+      fontFamily: 'Roboto',
+      fontWeight: FontWeight.w500,
+    ),
+    titleSmall: TextStyle(
+      color: colorScheme.onPrimaryContainer,
+      fontSize: 14.fSize,
+      fontFamily: 'Roboto',
+      fontWeight: FontWeight.w500,
+    ),
+  );
 }
 
 /// Class containing the supported color schemes.
@@ -245,13 +257,15 @@ class PrimaryColors {
 
   // BlueGray
   Color get blueGray400 => Color(0XFF8D8D8D);
-  Color get blueGray40001 => Color(0XFF888888);
+  Color get blueGray40001 => Color(0XFF8A8F96);
+  Color get blueGray40002 => Color(0XFF888888);
   Color get blueGray500 => Color(0XFF677489);
 
   // DeepOrange
   Color get deepOrange400 => Color(0XFFFF6955);
 
   // Gray
+  Color get gray100 => Color(0XFFF6F6F6);
   Color get gray200 => Color(0XFFEFEFEF);
   Color get gray20001 => Color(0XFFE8E8E8);
   Color get gray300 => Color(0XFFE5E5E5);
@@ -260,11 +274,11 @@ class PrimaryColors {
   Color get gray50 => Color(0XFFFCFCFC);
   Color get gray500 => Color(0XFF9A9FA5);
   Color get gray5001 => Color(0XFFF8FAFF);
-  Color get gray600 => Color(0XFF757575);
-  Color get gray60001 => Color(0XFF6C6C6C);
-  Color get gray60002 => Color(0XFF6F767D);
-  Color get gray60003 => Color(0XFF7A7D81);
-  Color get gray60004 => Color(0XFF6F767E);
+  Color get gray600 => Color(0XFF6C6C6C);
+  Color get gray60001 => Color(0XFF6F767E);
+  Color get gray60002 => Color(0XFF757575);
+  Color get gray60003 => Color(0XFF6F767D);
+  Color get gray60004 => Color(0XFF7A7D81);
   Color get gray60005 => Color(0XFF6F6D6D);
   Color get gray800 => Color(0XFF3A3A3A);
   Color get gray900 => Color(0XFF111729);

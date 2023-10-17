@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_shop_app/utils/snippet.dart';
 import 'package:flutter_shop_app/utils/custom_outlined_button.dart';
 
-class SplashPage extends StatelessWidget {
-  const SplashPage({Key? key}) : super(key: key);
+class SplashScreen extends StatelessWidget {
+  const SplashScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -149,12 +149,11 @@ class SplashPage extends StatelessWidget {
                       })
                 ]))));
   }
-
   onTapJoinus(BuildContext context) {
-    Navigator.pushNamed(context, "Signup");
+    Navigator.pushNamed(context, AppRoutes.registerScreen);
   }
 
   onTapSignin(BuildContext context) {
-    Navigator.pushNamed(context, "Signin");
+    Navigator.pushNamed(context, AppRoutes.loginScreen);
   }
 }

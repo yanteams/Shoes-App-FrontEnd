@@ -1,25 +1,28 @@
 import 'package:flutter/material.dart';
-
-// import 'views/login.dart';
-import 'views/splash.dart';
+import 'package:flutter_shop_app/routes/app.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_shop_app/utils/theme_helper.dart';
 
 void main() {
-  runApp(const MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+  ]);
+
+  ///Please update theme as per your need if required.
+  ThemeHelper().changeTheme('primary');
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: theme,
+      title: 'asf',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(scaffoldBackgroundColor: Color(0xFFCEDDEE)),
-      routes: {
-        "/": (context) => SplashPage(),
-        "Signup": (context) => SplashPage(),
-        "Signin": (context) => SplashPage(),
-      },
+      initialRoute: AppRoutes.splashScreen,
+      routes: AppRoutes.routes,
     );
   }
 }

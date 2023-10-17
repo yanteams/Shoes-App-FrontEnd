@@ -1,5 +1,5 @@
+import 'package:flutter_shop_app/utils/snippet.dart';
 import 'package:flutter/material.dart';
-import 'package:shop_app/core/app_export.dart';
 
 class CustomBottomBar extends StatefulWidget {
   CustomBottomBar({this.onChanged});
@@ -15,45 +15,54 @@ class CustomBottomBarState extends State<CustomBottomBar> {
 
   List<BottomMenuModel> bottomMenuList = [
     BottomMenuModel(
-      icon: ImageConstant.imgComponent1WhiteA700,
-      activeIcon: ImageConstant.imgComponent1WhiteA700,
-      type: BottomBarEnum.Component1whitea700,
+      icon: ImageConstant.imgNavhome,
+      activeIcon: ImageConstant.imgNavhome,
+      title: "Home",
+      type: BottomBarEnum.Home,
     ),
     BottomMenuModel(
-      icon: ImageConstant.imgComponent1Gray60002,
-      activeIcon: ImageConstant.imgComponent1Gray60002,
-      type: BottomBarEnum.Component1gray60002,
+      icon: ImageConstant.imgNavfavourites,
+      activeIcon: ImageConstant.imgNavfavourites,
+      title: "Favourites",
+      type: BottomBarEnum.Favourites,
     ),
     BottomMenuModel(
-      icon: ImageConstant.imgCart,
-      activeIcon: ImageConstant.imgCart,
-      type: BottomBarEnum.Cart,
+      icon: ImageConstant.imgNavbag,
+      activeIcon: ImageConstant.imgNavbag,
+      title: "Bag",
+      type: BottomBarEnum.Bag,
     ),
     BottomMenuModel(
-      icon: ImageConstant.imgComponent1Gray6000224x24,
-      activeIcon: ImageConstant.imgComponent1Gray6000224x24,
-      type: BottomBarEnum.Component1gray6000224x24,
+      icon: ImageConstant.imgNavnotifications,
+      activeIcon: ImageConstant.imgNavnotifications,
+      title: "Notifications",
+      type: BottomBarEnum.Notifications,
     ),
     BottomMenuModel(
-      icon: ImageConstant.imgComponent124x24,
-      activeIcon: ImageConstant.imgComponent124x24,
-      type: BottomBarEnum.Component124x24,
+      icon: ImageConstant.imgNavprofile,
+      activeIcon: ImageConstant.imgNavprofile,
+      title: "Profile",
+      type: BottomBarEnum.Profile,
     )
   ];
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 80.v,
-      margin: EdgeInsets.only(
-        left: 26.h,
-        right: 30.h,
-      ),
+      height: 92.v,
       decoration: BoxDecoration(
-        color: appTheme.black900,
-        borderRadius: BorderRadius.circular(
-          40.h,
-        ),
+        color: appTheme.whiteA700,
+        boxShadow: [
+          BoxShadow(
+            color: appTheme.black900.withOpacity(0.05),
+            spreadRadius: 2.h,
+            blurRadius: 2.h,
+            offset: Offset(
+              0,
+              -1,
+            ),
+          ),
+        ],
       ),
       child: BottomNavigationBar(
         backgroundColor: Colors.transparent,
@@ -65,17 +74,58 @@ class CustomBottomBarState extends State<CustomBottomBar> {
         type: BottomNavigationBarType.fixed,
         items: List.generate(bottomMenuList.length, (index) {
           return BottomNavigationBarItem(
-            icon: CustomImageView(
-              svgPath: bottomMenuList[index].icon,
-              height: 24.adaptSize,
-              width: 24.adaptSize,
-              color: appTheme.gray60002,
+            icon: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                CustomImageView(
+                  svgPath: bottomMenuList[index].icon,
+                  height: 24.adaptSize,
+                  width: 24.adaptSize,
+                  color: appTheme.gray60003,
+                ),
+                Padding(
+                  padding: EdgeInsets.only(top: 11.v),
+                  child: Text(
+                    bottomMenuList[index].title ?? "",
+                    style: CustomTextStyles.bodySmallBluegray40001.copyWith(
+                      color: appTheme.blueGray40001,
+                    ),
+                  ),
+                ),
+              ],
             ),
-            activeIcon: CustomImageView(
-              svgPath: bottomMenuList[index].activeIcon,
-              height: 24.adaptSize,
-              width: 24.adaptSize,
-              color: appTheme.whiteA700,
+            activeIcon: Container(
+              padding: EdgeInsets.symmetric(
+                horizontal: 25.h,
+                vertical: 20.v,
+              ),
+              decoration: AppDecoration.gradientGrayToWhiteA,
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  CustomImageView(
+                    svgPath: bottomMenuList[index].activeIcon,
+                    height: 24.adaptSize,
+                    width: 24.adaptSize,
+                    color: appTheme.black900,
+                    margin: EdgeInsets.only(top: 21.v),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(
+                      top: 11.v,
+                      bottom: 20.v,
+                    ),
+                    child: Text(
+                      bottomMenuList[index].title ?? "",
+                      style: CustomTextStyles.bodySmallBlack900.copyWith(
+                        color: appTheme.black900,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
             ),
             label: '',
           );
@@ -91,23 +141,26 @@ class CustomBottomBarState extends State<CustomBottomBar> {
 }
 
 enum BottomBarEnum {
-  Component1whitea700,
-  Component1gray60002,
-  Cart,
-  Component1gray6000224x24,
-  Component124x24,
+  Home,
+  Favourites,
+  Bag,
+  Notifications,
+  Profile,
 }
 
 class BottomMenuModel {
   BottomMenuModel({
     required this.icon,
     required this.activeIcon,
+    this.title,
     required this.type,
   });
 
   String icon;
 
   String activeIcon;
+
+  String? title;
 
   BottomBarEnum type;
 }
