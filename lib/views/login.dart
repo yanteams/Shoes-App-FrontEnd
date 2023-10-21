@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_shop_app/utils/snippet.dart';
-import 'package:flutter_shop_app/utils/custom_outlined_button.dart';
-import 'package:flutter_shop_app/utils/custom_checkbox_button.dart';
-import 'package:flutter_shop_app/utils/custom_text_form_field.dart';
+import 'package:flutter_shop_app/widgets/custom_button_style.dart';
+import 'package:flutter_shop_app/widgets/custom_checkbox_button.dart';
+import 'package:flutter_shop_app/widgets/custom_outlined_button.dart';
+import 'package:flutter_shop_app/widgets/custom_text_form_field.dart';
+import 'package:flutter_shop_app/widgets/custom_text_style.dart';
 
 // ignore_for_file: must_be_immutable
 class LoginScreen extends StatelessWidget {
@@ -146,6 +148,6 @@ class LoginScreen extends StatelessWidget {
   }
 
   onTapSignin(BuildContext context) {
-    Navigator.pushNamed(context, AppRoutes.shopAllTabContainerScreen);
+    Navigator.pushNamed(context, AppRoutes.shopKidsTabContainerScreen);
   }
 }

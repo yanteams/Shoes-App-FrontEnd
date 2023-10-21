@@ -64,3 +64,20 @@ class CustomIconButton extends StatelessWidget {
         ),
       );
 }
+extension IconButtonStyleHelper on CustomIconButton {
+  static BoxDecoration get outlineBlack => BoxDecoration(
+    color: appTheme.whiteA700,
+    borderRadius: BorderRadius.circular(12.h),
+    boxShadow: [
+      BoxShadow(
+        color: appTheme.black900.withOpacity(0.25),
+        spreadRadius: 2.h,
+        blurRadius: 2.h,
+        offset: Offset(
+          0,
+          2,
+        ),
+      ),
+    ],
+  );
+}

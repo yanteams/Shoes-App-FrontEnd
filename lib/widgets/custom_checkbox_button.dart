@@ -1,5 +1,6 @@
 import 'package:flutter_shop_app/utils/snippet.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_shop_app/widgets/custom_text_style.dart';
 
 class CustomCheckboxButton extends StatelessWidget {
   CustomCheckboxButton({

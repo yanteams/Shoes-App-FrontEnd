@@ -1,6 +1,7 @@
 import 'package:flutter_shop_app/utils/snippet.dart';
 import 'package:flutter_shop_app/widgets/base_button.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_shop_app/widgets/custom_text_style.dart';
 
 class CustomOutlinedButton extends BaseButton {
   CustomOutlinedButton({

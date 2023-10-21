@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_shop_app/utils/snippet.dart';
-import 'package:flutter_shop_app/utils/custom_outlined_button.dart';
+import 'package:flutter_shop_app/widgets/custom_button_style.dart';
+import 'package:flutter_shop_app/widgets/custom_outlined_button.dart';
+import 'package:flutter_shop_app/widgets/custom_text_style.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({Key? key}) : super(key: key);

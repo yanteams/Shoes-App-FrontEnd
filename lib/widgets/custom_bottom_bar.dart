@@ -1,5 +1,6 @@
 import 'package:flutter_shop_app/utils/snippet.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_shop_app/widgets/custom_text_style.dart';
 
 class CustomBottomBar extends StatefulWidget {
   CustomBottomBar({this.onChanged});
@@ -27,10 +28,10 @@ class CustomBottomBarState extends State<CustomBottomBar> {
       type: BottomBarEnum.Favourites,
     ),
     BottomMenuModel(
-      icon: ImageConstant.imgNavbag,
-      activeIcon: ImageConstant.imgNavbag,
-      title: "Bag",
-      type: BottomBarEnum.Bag,
+      icon: ImageConstant.imgNavsearch,
+      activeIcon: ImageConstant.imgNavsearch,
+      title: "Search",
+      type: BottomBarEnum.Search,
     ),
     BottomMenuModel(
       icon: ImageConstant.imgNavnotifications,
@@ -88,8 +89,8 @@ class CustomBottomBarState extends State<CustomBottomBar> {
                   padding: EdgeInsets.only(top: 11.v),
                   child: Text(
                     bottomMenuList[index].title ?? "",
-                    style: CustomTextStyles.bodySmallBluegray40001.copyWith(
-                      color: appTheme.blueGray40001,
+                    style: theme.textTheme.bodyMedium!.copyWith(
+                      color: appTheme.blueGray40002,
                     ),
                   ),
                 ),
@@ -97,13 +98,14 @@ class CustomBottomBarState extends State<CustomBottomBar> {
             ),
             activeIcon: Container(
               padding: EdgeInsets.symmetric(
-                horizontal: 25.h,
-                vertical: 20.v,
+                horizontal: 23.h,
+                vertical: 18.v,
               ),
-              decoration: AppDecoration.gradientGrayToWhiteA,
+              decoration: AppDecoration.gradientOnErrorContainerToWhiteA,
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   CustomImageView(
                     svgPath: bottomMenuList[index].activeIcon,
@@ -115,11 +117,11 @@ class CustomBottomBarState extends State<CustomBottomBar> {
                   Padding(
                     padding: EdgeInsets.only(
                       top: 11.v,
-                      bottom: 20.v,
+                      bottom: 18.v,
                     ),
                     child: Text(
                       bottomMenuList[index].title ?? "",
-                      style: CustomTextStyles.bodySmallBlack900.copyWith(
+                      style: CustomTextStyles.bodyMediumBlack900_1.copyWith(
                         color: appTheme.black900,
                       ),
                     ),
@@ -143,7 +145,9 @@ class CustomBottomBarState extends State<CustomBottomBar> {
 enum BottomBarEnum {
   Home,
   Favourites,
+  Search,
   Bag,
+
   Notifications,
   Profile,
 }

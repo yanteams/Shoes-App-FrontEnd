@@ -9,7 +9,34 @@ class ImageConstant {
   static String imgNavnotifications = '$imagePath/img_navnotifications.svg';
   static String imgNavprofile = '$imagePath/img_navprofile.svg';
   static String imgNavbagBlack900 = '$imagePath/img_navbag_black_900.svg';
+  static String imgNavsearch = '$imagePath/img_search_black_900.svg';
+  static String imgRectangle39832 = '$imagePath/img_rectangle39832.png';
+  static String imgCheckmarkGreen800 = '$imagePath/img_checkmark_green_800.svg';
+  static String imgComponent2 = '$imagePath/img_component_2.svg';
+  static String imgComponent1Gray6000324x24 =
+      '$imagePath/img_component1_gray_600_03_24x24.svg';
+  static String imgRectangle398321 = '$imagePath/img_rectangle39832_1.png';
+  static String imgComponent124x24 = '$imagePath/img_component1_24x24.svg';
+  static String imgComponent12 = '$imagePath/img_component1_2.svg';
+  static String imgEllipse227 = '$imagePath/img_ellipse227.png';
+  static String imgRectangle39833 = '$imagePath/img_rectangle39833.png';
+  static String imgNikelid512x512 = '$imagePath/img_nikelid512x512.png';
+  static String imgSearchBlack900 = '$imagePath/img_search_black_900.svg';
+  static String imgComponent1Gray60001 =
+      '$imagePath/img_component1_gray_600_01.svg';
+  static String imgComponent11 = '$imagePath/img_component1_1.svg';
+  static String imgComponent1Gray60003 =
+      '$imagePath/img_component1_gray_600_03.svg';
+  static String imgEllipse234 = '$imagePath/img_ellipse234.png';
+  static String imgRectangle39829 = '$imagePath/img_rectangle39829.png';
 
+  static String imgDividerhorisontal = '$imagePath/img_dividerhorisontal.svg';
+
+  static String imgComponent1Gray6000124x24 =
+      '$imagePath/img_component1_gray_600_01_24x24.svg';
+
+  static String imgNikelid512x512148x3 =
+      '$imagePath/img_nikelid512x512_148x3.png';
   static String imgRectangle32 = '$imagePath/img_rectangle32.png';
 
   static String imgRectangle33 = '$imagePath/img_rectangle33.png';
@@ -101,7 +128,6 @@ class ImageConstant {
   static String imgComponent1Gray6000224x24 =
       '$imagePath/img_component1_gray_600_02_24x24.svg';
 
-  static String imgComponent124x24 = '$imagePath/img_component1_24x24.svg';
 
   static String imgFrame427323245 = '$imagePath/img_frame427323245.svg';
 
