@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_shop_app/utils/snippet.dart';
 import 'package:flutter_shop_app/widgets/custom_icon_button.dart';
+<<<<<<< HEAD
 import 'package:flutter_shop_app/widgets/custom_text_style.dart';
+=======
+>>>>>>> origin/main
 
 class UserprofileItemWidget extends StatelessWidget {
   const UserprofileItemWidget({Key? key})

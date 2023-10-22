@@ -1,43 +1,25 @@
-<<<<<<< HEAD
-
 import 'package:flutter/material.dart';
 import 'package:flutter_shop_app/utils/snippet.dart';
 import 'package:flutter_shop_app/widgets/custom_icon_button.dart';
 import 'package:flutter_shop_app/widgets/custom_text_style.dart';
 
 // ignore: must_be_immutable
-class Productitem1ItemWidget extends StatelessWidget {
-  Productitem1ItemWidget({
+class Userprofileitem2ItemWidget extends StatelessWidget {
+  Userprofileitem2ItemWidget({
     Key? key,
-    this.onTapProductitem,
+    this.onTapUserprofileitem,
   }) : super(
           key: key,
         );
 
-  VoidCallback? onTapProductitem;
+  VoidCallback? onTapUserprofileitem;
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        onTapProductitem?.call();
+        onTapUserprofileitem?.call();
       },
-=======
-import 'package:flutter_shop_app/utils/snippet.dart';
-import 'package:flutter_shop_app/widgets/custom_icon_button.dart';
-import 'package:flutter/material.dart';
-
-class Productitem1ItemWidget extends StatelessWidget {
-  const Productitem1ItemWidget({Key? key})
-      : super(
-          key: key,
-        );
-
-  @override
-  Widget build(BuildContext context) {
-    return SizedBox(
-      width: 204.h,
->>>>>>> origin/main
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -63,11 +45,7 @@ class Productitem1ItemWidget extends StatelessWidget {
                   padding: EdgeInsets.all(6.h),
                   alignment: Alignment.topRight,
                   child: CustomImageView(
-<<<<<<< HEAD
                     svgPath: ImageConstant.imgComponent2Black900,
-=======
-                    svgPath: ImageConstant.imgComponent2Black90036x36,
->>>>>>> origin/main
                   ),
                 ),
               ],
@@ -79,21 +57,7 @@ class Productitem1ItemWidget extends StatelessWidget {
               top: 12.v,
             ),
             child: Text(
-<<<<<<< HEAD
               "Nike Air Max 270",
-=======
-              "Best Seller",
-              style: CustomTextStyles.titleMediumRed800,
-            ),
-          ),
-          Padding(
-            padding: EdgeInsets.only(
-              left: 26.h,
-              top: 5.v,
-            ),
-            child: Text(
-              "Nike Waffle Debut",
->>>>>>> origin/main
               style: CustomTextStyles.titleMediumOnPrimaryContainerSemiBold,
             ),
           ),
@@ -104,11 +68,7 @@ class Productitem1ItemWidget extends StatelessWidget {
             ),
             child: Text(
               "Men’s Shoes",
-<<<<<<< HEAD
               style: CustomTextStyles.bodyMediumBluegray400,
-=======
-              style: theme.textTheme.bodyMedium,
->>>>>>> origin/main
             ),
           ),
           Padding(
@@ -117,7 +77,6 @@ class Productitem1ItemWidget extends StatelessWidget {
               top: 5.v,
             ),
             child: Text(
-<<<<<<< HEAD
               "249",
               style: theme.textTheme.titleSmall,
             ),
@@ -131,12 +90,6 @@ class Productitem1ItemWidget extends StatelessWidget {
               top: 34.v,
             ),
           ),
-=======
-              "105",
-              style: theme.textTheme.titleSmall,
-            ),
-          ),
->>>>>>> origin/main
         ],
       ),
     );

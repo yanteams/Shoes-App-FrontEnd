@@ -1,17 +1,27 @@
 import 'package:flutter_shop_app/utils/snippet.dart';
+<<<<<<< HEAD
 import 'package:flutter_shop_app/views/bag_item_screen.dart';
+=======
+import 'package:flutter_shop_app/views/bag_item_page.dart';
+>>>>>>> origin/main
 import 'package:flutter_shop_app/views/favourites_edit_page.dart';
 import 'package:flutter_shop_app/views/shop_detail_product_page.dart';
 import 'package:flutter_shop_app/widgets/app_bar/appbar_image_1.dart';
 import 'package:flutter_shop_app/widgets/app_bar/appbar_subtitle_1.dart';
 import 'package:flutter_shop_app/widgets/app_bar/custom_app_bar.dart';
 import 'package:flutter_shop_app/widgets/custom_bottom_bar.dart';
+<<<<<<< HEAD
 import 'package:flutter_shop_app/widgets/custom_button_style.dart';
+=======
+>>>>>>> origin/main
 import 'package:flutter_shop_app/widgets/custom_drop_down.dart';
 import 'package:flutter_shop_app/widgets/custom_outlined_button.dart';
 import 'package:flutter_shop_app/widgets/custom_text_form_field.dart';
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:flutter_shop_app/widgets/custom_text_style.dart';
+=======
+>>>>>>> origin/main
 
 class CheckOutPaymentShowInfoAddedCardScreen extends StatelessWidget {
   CheckOutPaymentShowInfoAddedCardScreen({Key? key})

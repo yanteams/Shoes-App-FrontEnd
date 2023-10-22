@@ -1,6 +1,9 @@
 import 'package:flutter_shop_app/utils/snippet.dart';
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:flutter_shop_app/widgets/custom_text_style.dart';
+=======
+>>>>>>> origin/main
 
 class LoadingScreen extends StatelessWidget {
   const LoadingScreen({Key? key})

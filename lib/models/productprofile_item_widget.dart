@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_shop_app/utils/snippet.dart';
+<<<<<<< HEAD
 import 'package:flutter_shop_app/widgets/custom_text_style.dart';
+=======
+>>>>>>> origin/main
 
 class ProductprofileItemWidget extends StatelessWidget {
   const ProductprofileItemWidget({Key? key})

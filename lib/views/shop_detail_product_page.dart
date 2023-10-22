@@ -3,12 +3,19 @@ import 'package:flutter_shop_app/utils/snippet.dart';
 import 'package:flutter_shop_app/widgets/app_bar/appbar_image.dart';
 import 'package:flutter_shop_app/widgets/app_bar/appbar_image_1.dart';
 import 'package:flutter_shop_app/widgets/app_bar/appbar_subtitle_1.dart';
+<<<<<<< HEAD
 import 'package:flutter_shop_app/widgets/custom_app_bar.dart';
 import 'package:flutter_shop_app/widgets/custom_button_style.dart';
 import 'package:flutter_shop_app/widgets/custom_drop_down.dart';
 import 'package:flutter_shop_app/widgets/custom_outlined_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_shop_app/widgets/custom_text_style.dart';
+=======
+import 'package:flutter_shop_app/widgets/app_bar/custom_app_bar.dart';
+import 'package:flutter_shop_app/widgets/custom_drop_down.dart';
+import 'package:flutter_shop_app/widgets/custom_outlined_button.dart';
+import 'package:flutter/material.dart';
+>>>>>>> origin/main
 
 // ignore_for_file: must_be_immutable
 class ShopDetailProductPage extends StatelessWidget {
@@ -278,6 +285,10 @@ class ShopDetailProductPage extends StatelessWidget {
   /// When the action is triggered, this function uses the [Navigator] widget
   /// to push the named route for the shopAllTabContainerScreen.
   onTapImage(BuildContext context) {
+<<<<<<< HEAD
     Navigator.pushNamed(context, AppRoutes.shopKidsTabContainerScreen);
+=======
+    Navigator.pushNamed(context, AppRoutes.shopAllTabContainerScreen);
+>>>>>>> origin/main
   }
 }

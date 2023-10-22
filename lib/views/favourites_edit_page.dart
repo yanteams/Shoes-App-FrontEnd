@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import 'package:flutter_shop_app/models/productlist_item_widget.dart';
 import 'package:flutter_shop_app/utils/snippet.dart';
 import 'package:flutter_shop_app/widgets/app_bar/appbar_subtitle_4.dart';
+=======
+import 'package:flutter_shop_app/models/favouritesedit_item_widget.dart';
+import 'package:flutter_shop_app/utils/snippet.dart';
+import 'package:flutter_shop_app/widgets/app_bar/appbar_subtitle.dart';
+>>>>>>> origin/main
 import 'package:flutter_shop_app/widgets/app_bar/appbar_title.dart';
 import 'package:flutter_shop_app/widgets/app_bar/custom_app_bar.dart';
 import 'package:flutter/material.dart';
@@ -17,9 +23,15 @@ class FavouritesEditPage extends StatelessWidget {
                 title: AppbarTitle(
                     text: "Favourites",
                     margin:
+<<<<<<< HEAD
                     EdgeInsets.only(left: 26.h, top: 50.v, bottom: 15.v)),
                 actions: [
                   AppbarSubtitle4(
+=======
+                        EdgeInsets.only(left: 26.h, top: 50.v, bottom: 15.v)),
+                actions: [
+                  AppbarSubtitle(
+>>>>>>> origin/main
                       text: "Done",
                       margin: EdgeInsets.fromLTRB(27.h, 56.v, 27.h, 19.v),
                       onTap: () {
@@ -37,7 +49,11 @@ class FavouritesEditPage extends StatelessWidget {
                 physics: BouncingScrollPhysics(),
                 itemCount: 2,
                 itemBuilder: (context, index) {
+<<<<<<< HEAD
                   return ProductlistItemWidget();
+=======
+                  return FavouriteseditItemWidget();
+>>>>>>> origin/main
                 })));
   }
 

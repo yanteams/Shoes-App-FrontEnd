@@ -1,9 +1,13 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_shop_app/utils/snippet.dart';
+<<<<<<< HEAD
 import 'package:flutter_shop_app/widgets/custom_text_style.dart';
 
 // ignore: must_be_immutable
+=======
+
+>>>>>>> origin/main
 class Productprofile1ItemWidget extends StatelessWidget {
   const Productprofile1ItemWidget({Key? key})
       : super(
@@ -19,7 +23,11 @@ class Productprofile1ItemWidget extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             CustomImageView(
+<<<<<<< HEAD
               imagePath: ImageConstant.imgRectangle39824,
+=======
+              imagePath: ImageConstant.imgRectangle39824204x204,
+>>>>>>> origin/main
               height: 140.adaptSize,
               width: 140.adaptSize,
             ),
@@ -33,31 +41,51 @@ class Productprofile1ItemWidget extends StatelessWidget {
                 children: [
                   Text(
                     "Nike Air Max 270",
+<<<<<<< HEAD
                     style: CustomTextStyles.titleSmallBlack900_1,
+=======
+                    style: CustomTextStyles.titleSmallBlack900,
+>>>>>>> origin/main
                   ),
                   SizedBox(height: 3.v),
                   Text(
                     "Men’s Shoes",
+<<<<<<< HEAD
                     style: CustomTextStyles.bodyMediumBluegray400,
+=======
+                    style: theme.textTheme.bodyMedium,
+>>>>>>> origin/main
                   ),
                   Row(
                     children: [
                       Text(
                         "Black",
+<<<<<<< HEAD
                         style: CustomTextStyles.bodyMediumBluegray400,
+=======
+                        style: theme.textTheme.bodyMedium,
+>>>>>>> origin/main
                       ),
                       Padding(
                         padding: EdgeInsets.only(left: 8.h),
                         child: Text(
                           "|",
+<<<<<<< HEAD
                           style: CustomTextStyles.bodyMediumBluegray400,
+=======
+                          style: theme.textTheme.bodyMedium,
+>>>>>>> origin/main
                         ),
                       ),
                       Padding(
                         padding: EdgeInsets.only(left: 8.h),
                         child: Text(
                           "Size 42",
+<<<<<<< HEAD
                           style: CustomTextStyles.bodyMediumBluegray400,
+=======
+                          style: theme.textTheme.bodyMedium,
+>>>>>>> origin/main
                         ),
                       ),
                     ],

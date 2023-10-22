@@ -1,5 +1,9 @@
 import 'package:flutter_shop_app/utils/snippet.dart';
+<<<<<<< HEAD
 import 'package:flutter_shop_app/views/bag_item_screen.dart';
+=======
+import 'package:flutter_shop_app/views/bag_item_page.dart';
+>>>>>>> origin/main
 import 'package:flutter_shop_app/views/favourites_edit_page.dart';
 import 'package:flutter_shop_app/views/shop_detail_product_page.dart';
 import 'package:flutter_shop_app/widgets/app_bar/appbar_image_1.dart';

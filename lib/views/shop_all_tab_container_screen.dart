@@ -1,6 +1,10 @@
 import 'package:flutter_shop_app/routes/app.dart';
 import 'package:flutter_shop_app/utils/snippet.dart';
+<<<<<<< HEAD
 import 'package:flutter_shop_app/views/bag_item_screen.dart';
+=======
+import 'package:flutter_shop_app/views/bag_item_page.dart';
+>>>>>>> origin/main
 import 'package:flutter_shop_app/views/favourites_edit_page.dart';
 import 'package:flutter_shop_app/views/shop_all_page.dart';
 import 'package:flutter_shop_app/views/shop_detail_product_page.dart';
@@ -9,10 +13,15 @@ import 'package:flutter_shop_app/widgets/app_bar/appbar_image.dart';
 import 'package:flutter_shop_app/widgets/app_bar/appbar_title.dart';
 import 'package:flutter_shop_app/widgets/app_bar/custom_app_bar.dart';
 import 'package:flutter_shop_app/widgets/custom_bottom_bar.dart';
+<<<<<<< HEAD
 import 'package:flutter_shop_app/widgets/custom_button_style.dart';
 import 'package:flutter_shop_app/widgets/custom_outlined_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_shop_app/widgets/custom_text_style.dart';
+=======
+import 'package:flutter_shop_app/widgets/custom_outlined_button.dart';
+import 'package:flutter/material.dart';
+>>>>>>> origin/main
 
 class ShopAllTabContainerScreen extends StatefulWidget {
   const ShopAllTabContainerScreen({Key? key}) : super(key: key);

@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_shop_app/utils/snippet.dart';
+<<<<<<< HEAD
 import 'package:flutter_shop_app/widgets/custom_button_style.dart';
 import 'package:flutter_shop_app/widgets/custom_checkbox_button.dart';
 import 'package:flutter_shop_app/widgets/custom_outlined_button.dart';
 import 'package:flutter_shop_app/widgets/custom_text_form_field.dart';
 import 'package:flutter_shop_app/widgets/custom_text_style.dart';
+=======
+import 'package:flutter_shop_app/utils/custom_outlined_button.dart';
+import 'package:flutter_shop_app/utils/custom_checkbox_button.dart';
+import 'package:flutter_shop_app/utils/custom_text_form_field.dart';
+>>>>>>> origin/main
 
 class RegisterScreen extends StatelessWidget {
   RegisterScreen({Key? key}) : super(key: key);

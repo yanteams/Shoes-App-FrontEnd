@@ -1,7 +1,10 @@
 import 'package:flutter_shop_app/utils/snippet.dart';
 import 'package:flutter/material.dart';
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
 class AppNavigationScreen extends StatelessWidget {
   const AppNavigationScreen({Key? key}) : super(key: key);
 
@@ -52,9 +55,15 @@ class AppNavigationScreen extends StatelessWidget {
                               decoration: AppDecoration.fillWhiteA,
                               child: Column(children: [
                                 GestureDetector(
+<<<<<<< HEAD
                                     onTap: () {
                                       onTapLoading(context);
                                     },
+=======
+                                    // onTap: () {
+                                    //   onTapLoading(context);
+                                    // },
+>>>>>>> origin/main
                                     child: Container(
                                         decoration: AppDecoration.fillWhiteA,
                                         child: Column(children: [
@@ -66,10 +75,17 @@ class AppNavigationScreen extends StatelessWidget {
                                                       vertical: 10.v),
                                                   child: Text("Loading",
                                                       textAlign:
+<<<<<<< HEAD
                                                       TextAlign.center,
                                                       style: TextStyle(
                                                           color:
                                                           appTheme.black900,
+=======
+                                                          TextAlign.center,
+                                                      style: TextStyle(
+                                                          color:
+                                                              appTheme.black900,
+>>>>>>> origin/main
                                                           fontSize: 20.fSize,
                                                           fontFamily: 'Roboto',
                                                           fontWeight: FontWeight
@@ -95,10 +111,17 @@ class AppNavigationScreen extends StatelessWidget {
                                                       vertical: 10.v),
                                                   child: Text("Splash Screen",
                                                       textAlign:
+<<<<<<< HEAD
                                                       TextAlign.center,
                                                       style: TextStyle(
                                                           color:
                                                           appTheme.black900,
+=======
+                                                          TextAlign.center,
+                                                      style: TextStyle(
+                                                          color:
+                                                              appTheme.black900,
+>>>>>>> origin/main
                                                           fontSize: 20.fSize,
                                                           fontFamily: 'Roboto',
                                                           fontWeight: FontWeight
@@ -124,10 +147,17 @@ class AppNavigationScreen extends StatelessWidget {
                                                       vertical: 10.v),
                                                   child: Text("Login",
                                                       textAlign:
+<<<<<<< HEAD
                                                       TextAlign.center,
                                                       style: TextStyle(
                                                           color:
                                                           appTheme.black900,
+=======
+                                                          TextAlign.center,
+                                                      style: TextStyle(
+                                                          color:
+                                                              appTheme.black900,
+>>>>>>> origin/main
                                                           fontSize: 20.fSize,
                                                           fontFamily: 'Roboto',
                                                           fontWeight: FontWeight
@@ -153,10 +183,17 @@ class AppNavigationScreen extends StatelessWidget {
                                                       vertical: 10.v),
                                                   child: Text("Register",
                                                       textAlign:
+<<<<<<< HEAD
                                                       TextAlign.center,
                                                       style: TextStyle(
                                                           color:
                                                           appTheme.black900,
+=======
+                                                          TextAlign.center,
+                                                      style: TextStyle(
+                                                          color:
+                                                              appTheme.black900,
+>>>>>>> origin/main
                                                           fontSize: 20.fSize,
                                                           fontFamily: 'Roboto',
                                                           fontWeight: FontWeight
@@ -182,10 +219,17 @@ class AppNavigationScreen extends StatelessWidget {
                                                       vertical: 10.v),
                                                   child: Text("OTP/No code",
                                                       textAlign:
+<<<<<<< HEAD
                                                       TextAlign.center,
                                                       style: TextStyle(
                                                           color:
                                                           appTheme.black900,
+=======
+                                                          TextAlign.center,
+                                                      style: TextStyle(
+                                                          color:
+                                                              appTheme.black900,
+>>>>>>> origin/main
                                                           fontSize: 20.fSize,
                                                           fontFamily: 'Roboto',
                                                           fontWeight: FontWeight
@@ -211,10 +255,17 @@ class AppNavigationScreen extends StatelessWidget {
                                                       vertical: 10.v),
                                                   child: Text("OTP/code/false",
                                                       textAlign:
+<<<<<<< HEAD
                                                       TextAlign.center,
                                                       style: TextStyle(
                                                           color:
                                                           appTheme.black900,
+=======
+                                                          TextAlign.center,
+                                                      style: TextStyle(
+                                                          color:
+                                                              appTheme.black900,
+>>>>>>> origin/main
                                                           fontSize: 20.fSize,
                                                           fontFamily: 'Roboto',
                                                           fontWeight: FontWeight
@@ -240,10 +291,17 @@ class AppNavigationScreen extends StatelessWidget {
                                                       vertical: 10.v),
                                                   child: Text("OTP/code/True",
                                                       textAlign:
+<<<<<<< HEAD
                                                       TextAlign.center,
                                                       style: TextStyle(
                                                           color:
                                                           appTheme.black900,
+=======
+                                                          TextAlign.center,
+                                                      style: TextStyle(
+                                                          color:
+                                                              appTheme.black900,
+>>>>>>> origin/main
                                                           fontSize: 20.fSize,
                                                           fontFamily: 'Roboto',
                                                           fontWeight: FontWeight
@@ -256,7 +314,11 @@ class AppNavigationScreen extends StatelessWidget {
                                         ]))),
                                 GestureDetector(
                                     onTap: () {
+<<<<<<< HEAD
                                       onTapShopKidsTabContainer(context);
+=======
+                                      onTapShopAllTabContainer(context);
+>>>>>>> origin/main
                                     },
                                     child: Container(
                                         decoration: AppDecoration.fillWhiteA,
@@ -268,12 +330,21 @@ class AppNavigationScreen extends StatelessWidget {
                                                       horizontal: 20.h,
                                                       vertical: 10.v),
                                                   child: Text(
+<<<<<<< HEAD
                                                       "Shop/Kids - Tab Container",
                                                       textAlign:
                                                       TextAlign.center,
                                                       style: TextStyle(
                                                           color:
                                                           appTheme.black900,
+=======
+                                                      "Shop/All - Tab Container",
+                                                      textAlign:
+                                                          TextAlign.center,
+                                                      style: TextStyle(
+                                                          color:
+                                                              appTheme.black900,
+>>>>>>> origin/main
                                                           fontSize: 20.fSize,
                                                           fontFamily: 'Roboto',
                                                           fontWeight: FontWeight
@@ -300,10 +371,17 @@ class AppNavigationScreen extends StatelessWidget {
                                                   child: Text(
                                                       "Shop/Detail Product - Container",
                                                       textAlign:
+<<<<<<< HEAD
                                                       TextAlign.center,
                                                       style: TextStyle(
                                                           color:
                                                           appTheme.black900,
+=======
+                                                          TextAlign.center,
+                                                      style: TextStyle(
+                                                          color:
+                                                              appTheme.black900,
+>>>>>>> origin/main
                                                           fontSize: 20.fSize,
                                                           fontFamily: 'Roboto',
                                                           fontWeight: FontWeight
@@ -329,10 +407,17 @@ class AppNavigationScreen extends StatelessWidget {
                                                       vertical: 10.v),
                                                   child: Text("Favourites",
                                                       textAlign:
+<<<<<<< HEAD
                                                       TextAlign.center,
                                                       style: TextStyle(
                                                           color:
                                                           appTheme.black900,
+=======
+                                                          TextAlign.center,
+                                                      style: TextStyle(
+                                                          color:
+                                                              appTheme.black900,
+>>>>>>> origin/main
                                                           fontSize: 20.fSize,
                                                           fontFamily: 'Roboto',
                                                           fontWeight: FontWeight
@@ -359,6 +444,7 @@ class AppNavigationScreen extends StatelessWidget {
                                                   child: Text(
                                                       "Favourites/Edit/No Item",
                                                       textAlign:
+<<<<<<< HEAD
                                                       TextAlign.center,
                                                       style: TextStyle(
                                                           color:
@@ -392,6 +478,12 @@ class AppNavigationScreen extends StatelessWidget {
                                                       style: TextStyle(
                                                           color:
                                                           appTheme.black900,
+=======
+                                                          TextAlign.center,
+                                                      style: TextStyle(
+                                                          color:
+                                                              appTheme.black900,
+>>>>>>> origin/main
                                                           fontSize: 20.fSize,
                                                           fontFamily: 'Roboto',
                                                           fontWeight: FontWeight
@@ -417,10 +509,17 @@ class AppNavigationScreen extends StatelessWidget {
                                                       vertical: 10.v),
                                                   child: Text("Bag/No Item",
                                                       textAlign:
+<<<<<<< HEAD
                                                       TextAlign.center,
                                                       style: TextStyle(
                                                           color:
                                                           appTheme.black900,
+=======
+                                                          TextAlign.center,
+                                                      style: TextStyle(
+                                                          color:
+                                                              appTheme.black900,
+>>>>>>> origin/main
                                                           fontSize: 20.fSize,
                                                           fontFamily: 'Roboto',
                                                           fontWeight: FontWeight
@@ -447,10 +546,17 @@ class AppNavigationScreen extends StatelessWidget {
                                                   child: Text(
                                                       "Check out/Delivery",
                                                       textAlign:
+<<<<<<< HEAD
                                                       TextAlign.center,
                                                       style: TextStyle(
                                                           color:
                                                           appTheme.black900,
+=======
+                                                          TextAlign.center,
+                                                      style: TextStyle(
+                                                          color:
+                                                              appTheme.black900,
+>>>>>>> origin/main
                                                           fontSize: 20.fSize,
                                                           fontFamily: 'Roboto',
                                                           fontWeight: FontWeight
@@ -478,10 +584,17 @@ class AppNavigationScreen extends StatelessWidget {
                                                   child: Text(
                                                       "Check out/Payment/Show Info/Added Card",
                                                       textAlign:
+<<<<<<< HEAD
                                                       TextAlign.center,
                                                       style: TextStyle(
                                                           color:
                                                           appTheme.black900,
+=======
+                                                          TextAlign.center,
+                                                      style: TextStyle(
+                                                          color:
+                                                              appTheme.black900,
+>>>>>>> origin/main
                                                           fontSize: 20.fSize,
                                                           fontFamily: 'Roboto',
                                                           fontWeight: FontWeight
@@ -509,10 +622,17 @@ class AppNavigationScreen extends StatelessWidget {
                                                   child: Text(
                                                       "Check out/Payment/No show info/Added Card",
                                                       textAlign:
+<<<<<<< HEAD
                                                       TextAlign.center,
                                                       style: TextStyle(
                                                           color:
                                                           appTheme.black900,
+=======
+                                                          TextAlign.center,
+                                                      style: TextStyle(
+                                                          color:
+                                                              appTheme.black900,
+>>>>>>> origin/main
                                                           fontSize: 20.fSize,
                                                           fontFamily: 'Roboto',
                                                           fontWeight: FontWeight
@@ -540,10 +660,17 @@ class AppNavigationScreen extends StatelessWidget {
                                                   child: Text(
                                                       "Check out/Payment/No show info/Added Card//Choose Card",
                                                       textAlign:
+<<<<<<< HEAD
                                                       TextAlign.center,
                                                       style: TextStyle(
                                                           color:
                                                           appTheme.black900,
+=======
+                                                          TextAlign.center,
+                                                      style: TextStyle(
+                                                          color:
+                                                              appTheme.black900,
+>>>>>>> origin/main
                                                           fontSize: 20.fSize,
                                                           fontFamily: 'Roboto',
                                                           fontWeight: FontWeight
@@ -571,6 +698,7 @@ class AppNavigationScreen extends StatelessWidget {
                                                   child: Text(
                                                       "Check out/Payment/Show Info/No add Card",
                                                       textAlign:
+<<<<<<< HEAD
                                                       TextAlign.center,
                                                       style: TextStyle(
                                                           color:
@@ -606,6 +734,12 @@ class AppNavigationScreen extends StatelessWidget {
                                                       style: TextStyle(
                                                           color:
                                                           appTheme.black900,
+=======
+                                                          TextAlign.center,
+                                                      style: TextStyle(
+                                                          color:
+                                                              appTheme.black900,
+>>>>>>> origin/main
                                                           fontSize: 20.fSize,
                                                           fontFamily: 'Roboto',
                                                           fontWeight: FontWeight
@@ -633,6 +767,7 @@ class AppNavigationScreen extends StatelessWidget {
                                                   child: Text(
                                                       "Check out/Payment/No show info/No add Card",
                                                       textAlign:
+<<<<<<< HEAD
                                                       TextAlign.center,
                                                       style: TextStyle(
                                                           color:
@@ -906,6 +1041,12 @@ class AppNavigationScreen extends StatelessWidget {
                                                       style: TextStyle(
                                                           color:
                                                           appTheme.black900,
+=======
+                                                          TextAlign.center,
+                                                      style: TextStyle(
+                                                          color:
+                                                              appTheme.black900,
+>>>>>>> origin/main
                                                           fontSize: 20.fSize,
                                                           fontFamily: 'Roboto',
                                                           fontWeight: FontWeight
@@ -925,9 +1066,15 @@ class AppNavigationScreen extends StatelessWidget {
   /// The [BuildContext] parameter is used to build the navigation stack.
   /// When the action is triggered, this function uses the [Navigator] widget
   /// to push the named route for the loadingScreen.
+<<<<<<< HEAD
   onTapLoading(BuildContext context) {
     Navigator.pushNamed(context, AppRoutes.loadingScreen);
   }
+=======
+  // onTapLoading(BuildContext context) {
+  //   Navigator.pushNamed(context, AppRoutes.loadingScreen);
+  // }
+>>>>>>> origin/main
 
   /// Navigates to the splashScreen when the action is triggered.
   ///
@@ -983,6 +1130,7 @@ class AppNavigationScreen extends StatelessWidget {
     Navigator.pushNamed(context, AppRoutes.otpCodeTrueScreen);
   }
 
+<<<<<<< HEAD
   /// Navigates to the shopKidsTabContainerScreen when the action is triggered.
   ///
   /// The [BuildContext] parameter is used to build the navigation stack.
@@ -990,6 +1138,15 @@ class AppNavigationScreen extends StatelessWidget {
   /// to push the named route for the shopKidsTabContainerScreen.
   onTapShopKidsTabContainer(BuildContext context) {
     Navigator.pushNamed(context, AppRoutes.shopKidsTabContainerScreen);
+=======
+  /// Navigates to the shopAllTabContainerScreen when the action is triggered.
+  ///
+  /// The [BuildContext] parameter is used to build the navigation stack.
+  /// When the action is triggered, this function uses the [Navigator] widget
+  /// to push the named route for the shopAllTabContainerScreen.
+  onTapShopAllTabContainer(BuildContext context) {
+    Navigator.pushNamed(context, AppRoutes.shopAllTabContainerScreen);
+>>>>>>> origin/main
   }
 
   /// Navigates to the shopDetailProductContainerScreen when the action is triggered.
@@ -1019,6 +1176,7 @@ class AppNavigationScreen extends StatelessWidget {
     Navigator.pushNamed(context, AppRoutes.favouritesEditNoItemScreen);
   }
 
+<<<<<<< HEAD
   /// Navigates to the bagItemScreen when the action is triggered.
   ///
   /// The [BuildContext] parameter is used to build the navigation stack.
@@ -1028,6 +1186,8 @@ class AppNavigationScreen extends StatelessWidget {
     Navigator.pushNamed(context, AppRoutes.bagItemPage);
   }
 
+=======
+>>>>>>> origin/main
   /// Navigates to the bagNoItemScreen when the action is triggered.
   ///
   /// The [BuildContext] parameter is used to build the navigation stack.
@@ -1086,6 +1246,7 @@ class AppNavigationScreen extends StatelessWidget {
         context, AppRoutes.checkOutPaymentShowInfoNoAddCardScreen);
   }
 
+<<<<<<< HEAD
   /// Navigates to the checkOutPaymentNoShowInfoNoAddCardOneScreen when the action is triggered.
   ///
   /// The [BuildContext] parameter is used to build the navigation stack.
@@ -1096,6 +1257,8 @@ class AppNavigationScreen extends StatelessWidget {
         context, AppRoutes.checkOutPaymentNoShowInfoNoAddCardOneScreen);
   }
 
+=======
+>>>>>>> origin/main
   /// Navigates to the checkOutPaymentNoShowInfoNoAddCardScreen when the action is triggered.
   ///
   /// The [BuildContext] parameter is used to build the navigation stack.
@@ -1105,6 +1268,7 @@ class AppNavigationScreen extends StatelessWidget {
     Navigator.pushNamed(
         context, AppRoutes.checkOutPaymentNoShowInfoNoAddCardScreen);
   }
+<<<<<<< HEAD
 
   /// Navigates to the checkOutPaymentNoShowInfoLoadingScreen when the action is triggered.
   ///
@@ -1189,4 +1353,6 @@ class AppNavigationScreen extends StatelessWidget {
   onTapSearchSearchingOne(BuildContext context) {
     Navigator.pushNamed(context, AppRoutes.searchSearchingOneScreen);
   }
+=======
+>>>>>>> origin/main
 }
